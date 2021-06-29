@@ -40,7 +40,7 @@ workflows:
     jobs:
       - build
       - test:
-          reuires:
+          requires:
            - build
       - analyze:
           requires:
